@@ -1,0 +1,52 @@
+/* Aplica estilo ao corpo da página inteira */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    display: flex;                  /* Usa Flexbox para organizar o conteúdo */
+    justify-content: center;        /* Centraliza horizontalmente */
+    align-items: center;            /* Centraliza verticalmente */
+    height: 100vh;                  /* Ocupa 100% da altura da tela */
+    background-color: #b8bdff;      /* Define a cor de fundo */
+}
+
+/* Estilo para o container que envolve todos os elementos */
+.container {
+    text-align: center;              /* Centraliza o texto dentro do container */
+    padding: 20px;                   /* Espaçamento interno */
+    background-color: #13042e;       /* Cor de fundo do container */
+    border-radius: 10px;             /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo do título */
+#titulo {
+    color: aliceblue; /* Cor do texto do título */
+}
+
+/* Estilo do input */
+input {
+    padding: 10px;           /* Espaçamento interno do campo */
+    margin-right: 10px;      /* Espaço à direita para separar do botão */
+    border: 1px solid #ccc;  /* Borda cinza clara */
+    border-radius: 5px;      /* Bordas arredondadas */
+}
+
+/* Estilo do botão */
+button {
+    padding: 10px 20px;          /* Espaçamento interno do botão */
+    background-color: #007BFF;   /* Cor azul */
+    color: white;                /* Cor do texto */
+    border: none;                /* Remove borda padrão */
+    border-radius: 5px;          /* Bordas arredondadas */
+    cursor: pointer;             /* Cursor de “mãozinha” ao passar o mouse */
+}
+
+/* Efeito hover do botão */
+button:hover {
+    background-color: #0056b3; /* Escurece o botão ao passar o mouse */
+}
+
+/* Estilo do parágrafo da mensagem */
+p {
+    margin-top: 20px;  /* Espaço acima da mensagem */
+    font-size: 18px;   /* Tamanho da fonte da mensagem */
+}
